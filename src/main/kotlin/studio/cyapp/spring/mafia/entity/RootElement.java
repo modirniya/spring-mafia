@@ -75,7 +75,7 @@ public class RootElement {
         this.role = role;
     }
 
-    @DynamoDBAttribute
+    @DynamoDBAttribute(attributeName = "RK")
     public String getRK() {
         return RK;
     }
